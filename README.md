@@ -7,8 +7,6 @@
 ## Introduction
 Responsive Block Cipher Questionniare made with React, [Open Trivia DB](https://opentdb.com/) and styled-components.
 
-![preview](https://i.ibb.co/4K2y8hh/localhost-3000.png)
-
 
 ## Installation
 - Install dependencies
