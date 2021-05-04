@@ -5,7 +5,7 @@
 </div>
 
 ## Introduction
-Responsive Block Cipher Questionniare made with React, [Open Trivia DB](https://opentdb.com/) and styled-components.
+Responsive Block Cipher Questionniare made with React.
 
 
 ## Installation
