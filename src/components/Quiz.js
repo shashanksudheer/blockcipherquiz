@@ -55,7 +55,7 @@ const questions = [
                 answer: "Low computing resources (resource-constrained)",
                 points: {
                     DES: 0,
-                    AES: 200,
+                    AES: 100,
                     SIMON: 100,
                     TDES: 0,
                     IDEA: 0,
@@ -85,7 +85,7 @@ const questions = [
                 answer: "Yes",
                 points: {
                     DES: 100,
-                    AES: 500,
+                    AES: 300,
                     SIMON: 0,
                     TDES: 0,
                     IDEA: 0,
@@ -101,8 +101,8 @@ const questions = [
                     SIMON: 200,
                     TDES: 0,
                     IDEA: 200,
-                    Serpent: 0,
-                    Blowfish: 0
+                    Serpent: 200,
+                    Blowfish: 200
                 }
             },
         ], // end options
@@ -145,7 +145,7 @@ const questions = [
                 answer: "Yes",
                 points: {
                     DES: 100,
-                    AES: 300,
+                    AES: 200,
                     SIMON: 150,
                     TDES: 0,
                     IDEA: 250,
@@ -174,8 +174,8 @@ const questions = [
             {
                 answer: "64",
                 points: {
-                    DES: 200,
-                    AES: 300,
+                    DES: 300,
+                    AES: 0,
                     SIMON: 300,
                     TDES: 300,
                     IDEA: 300,
@@ -216,7 +216,7 @@ const questions = [
                     TDES: 0,
                     IDEA: 0,
                     Serpent: 0,
-                    Blowfish: 300
+                    Blowfish: 0
                 }
             },
         ], // end options
@@ -274,9 +274,9 @@ const questions = [
                     AES: 0,
                     SIMON: 0,
                     TDES: 100,
-                    IDEA: 0,
-                    Serpent: 0,
-                    Blowfish: 0
+                    IDEA: 100,
+                    Serpent: 100,
+                    Blowfish: 100
                 }
             },
             {
@@ -330,14 +330,14 @@ const questions = [
                     TDES: 100,
                     IDEA: 100,
                     Serpent: 100,
-                    Blowfish: 0
+                    Blowfish: 100
                 }
             },
             {
                 answer: "Less important/non-private data",
                 points: {
                     DES: 50,
-                    AES: 100,
+                    AES: 50,
                     SIMON: 50,
                     TDES: 50,
                     IDEA: 50,
@@ -349,7 +349,7 @@ const questions = [
     },
 
     {
-        question: "What data type would your application require screening?",
+        question: "What attacks may your application be vulnerable too?",
         options: [
             {
                 answer: "Brute Force",
@@ -444,19 +444,19 @@ const questions = [
                     TDES: 0,
                     IDEA: 100,
                     Serpent: 100,
-                    Blowfish: 0
+                    Blowfish: 100
                 }
             },
             {
                 answer: "No I'd rather have more established ciphers",
                 points: {
                     DES: 100,
-                    AES: 200,
+                    AES: 100,
                     SIMON: 0,
                     TDES: 100,
-                    IDEA: 100,
-                    Serpent: 100,
-                    Blowfish: 100
+                    IDEA: 0,
+                    Serpent: 0,
+                    Blowfish: 0
                 }
             },
         ], // end options
