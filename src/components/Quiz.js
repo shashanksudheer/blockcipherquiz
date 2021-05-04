@@ -196,12 +196,12 @@ const questions = [
                 }
             },
             {
-                answer: "256",
+                answer: "168",
                 points: {
                     DES: 0,
                     AES: 0,
                     SIMON: 0,
-                    TDES: 0,
+                    TDES: 300,
                     IDEA: 0,
                     Serpent: 0,
                     Blowfish: 0
