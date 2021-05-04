@@ -176,11 +176,11 @@ const questions = [
                 points: {
                     DES: 300,
                     AES: 0,
-                    SIMON: 300,
+                    SIMON: 0,
                     TDES: 300,
                     IDEA: 300,
                     Serpent: 0,
-                    Blowfish: 0
+                    Blowfish: 300
                 }
             },
             {
@@ -234,7 +234,7 @@ const questions = [
                     TDES: 100,
                     IDEA: 100,
                     Serpent: 0,
-                    Blowfish: 100
+                    Blowfish: 0
                 }
             },
             {
@@ -246,7 +246,7 @@ const questions = [
                     TDES: 0,
                     IDEA: 0,
                     Serpent: 100,
-                    Blowfish: 0
+                    Blowfish: 100
                 }
             },
         ], // end options
