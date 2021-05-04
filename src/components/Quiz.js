@@ -60,7 +60,7 @@ const questions = [
                     TDES: 0,
                     IDEA: 0,
                     Serpent: 100,
-                    RSA: 0
+                    Blowfish: 100
                 }
             },
             {
@@ -72,7 +72,7 @@ const questions = [
                     TDES: 100,
                     IDEA: 100,
                     Serpent: 0,
-                    RSA: 100
+                    Blowfish: 100
                 }
             },
         ], // end options
@@ -90,7 +90,7 @@ const questions = [
                     TDES: 0,
                     IDEA: 0,
                     Serpent: 0,
-                    RSA: 150
+                    Blowfish: 0
                 }
             },
             {
@@ -102,7 +102,7 @@ const questions = [
                     TDES: 0,
                     IDEA: 200,
                     Serpent: 0,
-                    RSA: 0
+                    Blowfish: 0
                 }
             },
         ], // end options
@@ -120,7 +120,7 @@ const questions = [
                     TDES: 0,
                     IDEA: 0,
                     Serpent: 200,
-                    RSA: 200
+                    Blowfish: 200
                 }
             },
             {
@@ -132,7 +132,7 @@ const questions = [
                     TDES: 0,
                     IDEA: 0,
                     Serpent: 0,
-                    RSA: 0
+                    Blowfish: 0
                 }
             },
         ], // end options
@@ -150,7 +150,7 @@ const questions = [
                     TDES: 0,
                     IDEA: 250,
                     Serpent: 200,
-                    RSA: 0
+                    Blowfish: 100
                 }
             },
             {
@@ -162,7 +162,7 @@ const questions = [
                     TDES: 100,
                     IDEA: 0,
                     Serpent: 0,
-                    RSA: 0
+                    Blowfish: 0
                 }
             },
         ], // end options
@@ -180,7 +180,7 @@ const questions = [
                     TDES: 300,
                     IDEA: 300,
                     Serpent: 0,
-                    RSA: 0
+                    Blowfish: 0
                 }
             },
             {
@@ -192,7 +192,7 @@ const questions = [
                     TDES: 0,
                     IDEA: 0,
                     Serpent: 300,
-                    RSA: 0
+                    Blowfish: 0
                 }
             },
             {
@@ -204,7 +204,7 @@ const questions = [
                     TDES: 0,
                     IDEA: 0,
                     Serpent: 0,
-                    RSA: 0
+                    Blowfish: 0
                 }
             },
             {
@@ -216,7 +216,7 @@ const questions = [
                     TDES: 0,
                     IDEA: 0,
                     Serpent: 0,
-                    RSA: 0
+                    Blowfish: 300
                 }
             },
         ], // end options
@@ -234,7 +234,7 @@ const questions = [
                     TDES: 100,
                     IDEA: 100,
                     Serpent: 0,
-                    RSA: 100
+                    Blowfish: 100
                 }
             },
             {
@@ -246,7 +246,7 @@ const questions = [
                     TDES: 0,
                     IDEA: 0,
                     Serpent: 100,
-                    RSA: 0
+                    Blowfish: 0
                 }
             },
         ], // end options
@@ -264,7 +264,7 @@ const questions = [
                     TDES: 0,
                     IDEA: 0,
                     Serpent: 0,
-                    RSA: 0
+                    Blowfish: 0
                 }
             },
             {
@@ -276,7 +276,7 @@ const questions = [
                     TDES: 100,
                     IDEA: 0,
                     Serpent: 0,
-                    RSA: 0
+                    Blowfish: 0
                 }
             },
             {
@@ -288,7 +288,7 @@ const questions = [
                     TDES: 0,
                     IDEA: 0,
                     Serpent: 0,
-                    RSA: 0
+                    Blowfish: 0
                 }
             },
             {
@@ -300,7 +300,7 @@ const questions = [
                     TDES: 0,
                     IDEA: 0,
                     Serpent: 0,
-                    RSA: 0
+                    Blowfish: 0
                 }
             },
             {
@@ -312,14 +312,14 @@ const questions = [
                     TDES: 0,
                     IDEA: 0,
                     Serpent: 50,
-                    RSA: 0
+                    Blowfish: 0
                 }
             },
         ], // end options
     },
 
     {
-        question: "What information would your applicaiton be securing?",
+        question: "What information would your application be securing?",
         options: [
             {
                 answer: "Highly Sensitive Data (passwords, private personal info, etc.)",
@@ -330,7 +330,7 @@ const questions = [
                     TDES: 100,
                     IDEA: 100,
                     Serpent: 100,
-                    RSA: 0
+                    Blowfish: 0
                 }
             },
             {
@@ -342,7 +342,7 @@ const questions = [
                     TDES: 50,
                     IDEA: 50,
                     Serpent: 50,
-                    RSA: 50
+                    Blowfish: 50
                 }
             },
         ], // end options
@@ -360,7 +360,7 @@ const questions = [
                     TDES: 0,
                     IDEA: 0,
                     Serpent: 100,
-                    RSA: 200
+                    Blowfish: 200
                 }
             },
             {
@@ -372,7 +372,7 @@ const questions = [
                     TDES: 100,
                     IDEA: 0,
                     Serpent: 100,
-                    RSA: 200
+                    Blowfish: 200
                 }
             },
             {
@@ -384,7 +384,7 @@ const questions = [
                     TDES: 100,
                     IDEA: 100,
                     Serpent: 100,
-                    RSA: 100
+                    Blowfish: 100
                 }
             },
             {
@@ -396,7 +396,7 @@ const questions = [
                     TDES: 0,
                     IDEA: 0,
                     Serpent: 0,
-                    RSA: 200
+                    Blowfish: 200
                 }
             },
         ], // end options
@@ -414,7 +414,7 @@ const questions = [
                     TDES: 0,
                     IDEA: 100,
                     Serpent: 100,
-                    RSA: 0
+                    Blowfish: 0
                 }
             },
             {
@@ -426,7 +426,7 @@ const questions = [
                     TDES: 0,
                     IDEA: 0,
                     Serpent: 0,
-                    RSA: 0
+                    Blowfish: 0
                 }
             },
         ], // end options
@@ -444,7 +444,7 @@ const questions = [
                     TDES: 0,
                     IDEA: 100,
                     Serpent: 100,
-                    RSA: 0
+                    Blowfish: 0
                 }
             },
             {
@@ -456,41 +456,12 @@ const questions = [
                     TDES: 100,
                     IDEA: 100,
                     Serpent: 100,
-                    RSA: 100
+                    Blowfish: 100
                 }
             },
         ], // end options
     },
 
-    {
-        question: "Would you want to make use of asymmetric or symmetric encryption?",
-        options: [
-            {
-                answer: "More experimental is fine",
-                points: {
-                    DES: 0,
-                    AES: 0,
-                    SIMON: 100,
-                    TDES: 0,
-                    IDEA: 100,
-                    Serpent: 100,
-                    RSA: 0
-                }
-            },
-            {
-                answer: "No I'd rather have more established ciphers",
-                points: {
-                    DES: 100,
-                    AES: 200,
-                    SIMON: 0,
-                    TDES: 100,
-                    IDEA: 100,
-                    Serpent: 100,
-                    RSA: 100
-                }
-            },
-        ], // end options
-    },
 ];
 
 const cipherPoints = {
@@ -500,7 +471,7 @@ const cipherPoints = {
     TDES: 0,
     IDEA: 0,
     Serpent: 0,
-    RSA: 0,
+    Blowfish: 0,
 }
 
 const Quiz = () => {
@@ -520,7 +491,7 @@ const Quiz = () => {
             TDES: pts.TDES + awardPts.TDES,
             IDEA: pts.IDEA + awardPts.IDEA,
             Serpent: pts.Serpent + awardPts.Serpent,
-            RSA: pts.RSA + awardPts.RSA,
+            Blowfish: pts.Blowfish + awardPts.Blowfish,
         }
         setPts(newPts);
         // console.log(pts);  // DEBUG CODE
@@ -548,7 +519,7 @@ const Quiz = () => {
 
             }
             {
-                number === 12 && <QuizEnd pts={pts} />
+                number === 11 && <QuizEnd pts={pts} />
             }
         </QuizWindow>
     )
